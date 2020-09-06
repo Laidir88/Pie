@@ -1,0 +1,41 @@
+Raspberry Pi 4 Model B
+BCM2711 ARM A72 ARMv8
+2 GB
+
+GPIO (40 pins)
+J8 Pin Out
+   ______  
+1 | X  X |2      
+3 | X  X |4
+5 | X  X |6
+7 | X  X |8
+9 | X  X |10
+11| X  X |12
+13| X  X |14
+15| X  X |16
+17| X  X |18
+19| X  X |20
+21| X  X |22
+23| X  X |24
+25| X  X |26
+27| X  X |28
+29| X  X |30
+31| X  X |32
+33| X  X |34
+35| X  X |36
+37| X  X |38
+39| X  X |40
+   ------
+
+
+ARM JTAG
+ALT4 Pins 
+J8 Pin#     GPIO #      Desc
+15          GPIO 22     ARM-TRST (Reset)
+16          GPIO 23     ARM-RTCK (Return Clock)
+18          GPIO 24     ARM-TDO  (Data Out)
+22          GPIO 25     ARM-TCK  (Clock)
+37          GPIO 26     ARM-TDI  (Data In)
+13          GPIO 27     ARM-TMS  (Mode Select)
+
+
